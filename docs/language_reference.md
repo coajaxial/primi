@@ -3,17 +3,17 @@
 ## Syntax
 Primi is built with a familiar PHP/JS/C-like syntax. **Statements are separated using the `;` semicolon character**. If there's no need to put multiple statements on a single line, statements can be separated with newline, too. Both of these syntaxes are therefore valid:
 
-- Using semicolons *(recommended)*:
-    ```js
-    a = 1 + 2; b = a + 3;
-    c = b - a;
-    ```
-
-- Using newlines:
+- Using newlines  *(recommended)*:
     ```js
     a = 1 + 2
     b = a + 3
     c = b - a
+    ```
+
+- Using semicolons:
+    ```js
+    a = 1 + 2; b = a + 3;
+    c = b - a;
     ```
 
 ## Data types
